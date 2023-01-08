@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReadDetailMakananActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/gelombang"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/gelombang" />
+
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="500dp"
+            android:layout_height="101dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/logo_saracope"
+            tools:layout_editor_absoluteX="102dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <TextView
+            android:id="@+id/namaMakanan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/logo"
+            android:layout_marginTop="90dp"
+            android:fontFamily="@font/poppinssemi"
+            android:gravity="center"
+            android:text="Nama Makanan"
+            android:textColor="#000"
+            android:textSize="30dp"
+            tools:layout_editor_absoluteX="-33dp"
+            tools:layout_editor_absoluteY="127dp" />
+
+        <TextView
+            android:id="@+id/bahan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/namaMakanan"
+            android:fontFamily="@font/poppinssemi"
+            android:gravity="left"
+            android:layout_marginLeft="30dp"
+            android:text="Bahan: "
+            android:textColor="#000"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="-33dp"
+            tools:layout_editor_absoluteY="127dp" />
+
+        <TextView
+            android:id="@+id/isiBahan"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/bahan"
+            android:fontFamily="@font/poppinssemi"
+            android:gravity="left"
+            android:layout_marginLeft="30dp"
+            android:text="isi Bahan "
+            android:textColor="#000"
+            android:textSize="12dp"
+            tools:layout_editor_absoluteX="-33dp"
+            tools:layout_editor_absoluteY="127dp" />
+
+        <TextView
+            android:id="@+id/step"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/isiBahan"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="30dp"
+            android:fontFamily="@font/poppinssemi"
+            android:gravity="left"
+            android:text="Langkah - Langkah: "
+            android:textColor="#000"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="-33dp"
+            tools:layout_editor_absoluteY="127dp" />
+
+        <TextView
+            android:id="@+id/isiStep"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_below="@id/step"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="30dp"
+            android:fontFamily="@font/poppinssemi"
+            android:gravity="left"
+            android:text="isi Langkah - Langkah: "
+            android:textColor="#000"
+            android:textSize="12dp"
+            tools:layout_editor_absoluteX="-33dp"
+            tools:layout_editor_absoluteY="127dp" />
+
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="550dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:text="UPDATE / DELETE" />
+
+
+
+    </RelativeLayout>
+
+</FrameLayout>

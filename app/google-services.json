@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "715076992872",
+    "project_id": "saracop-project",
+    "storage_bucket": "saracop-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:715076992872:android:77894adc73eb55b9b320dd",
+        "android_client_info": {
+          "package_name": "com.example.saracopproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "715076992872-so09v2kpn8fpfj4m3p3lb6vf5np2a778.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUR3I8qszQ7vRrLOvHfcTr0yfhmkKji8E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "715076992872-so09v2kpn8fpfj4m3p3lb6vf5np2a778.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

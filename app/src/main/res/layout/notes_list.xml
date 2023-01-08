@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#A53D09"
+    android:padding="5dp"
+    tools:context=".ReadMakananActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/rounded_corner"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/txt_nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#30A53D09"
+            android:hint="NAMA"
+            android:fontFamily="@font/poppinssemi"
+            android:textColor="@color/black"
+            android:padding="40dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/Detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_nama"
+            android:layout_marginLeft="270dp"
+            android:layout_marginTop="10dp"
+            android:drawableRight="@drawable/ic_baseline_keyboard_arrow_right_24"
+            android:fontFamily="@font/poppinssemi"
+            android:text="See Detail"
+            android:textColor="@color/accent2"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+</LinearLayout>
